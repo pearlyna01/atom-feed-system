@@ -1,0 +1,16 @@
+File existsPUT /atom.xml HTTP/1.1
+User-agent: ATOMClient/1/0
+Content-Type: text/xml
+Content-Length: 137
+clock:1
+clientID:1
+
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+<entry/>
+</feed>
+
+Atom server updated timestamp.
+Client socket closed
+purged timers
+server socket closed

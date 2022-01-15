@@ -1,0 +1,22 @@
+File existsEntries of clientID:1 is removed
+PUT /atom.xml HTTP/1.1
+User-agent: ATOMClient/1/0
+Content-Type: text/xml
+Content-Length: 370
+clock:1
+clientID:1
+
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+    <entry>
+        <title>second feed entry</title>
+        <link>www.cs.adelaide.edu.au/users/third/ds/14ds2s1<link>
+        <updated>2015-08-07T18:29:02Z</updated>
+        <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6b<id>
+    </entry>
+</feed>
+
+Atom server updated timestamp.
+Client socket closed
+purged timers
+server socket closed

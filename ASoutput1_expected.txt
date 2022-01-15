@@ -1,0 +1,111 @@
+File existsPUT /atom.xml HTTP/1.1
+User-agent: ATOMClient/1/0
+Content-Type: text/xml
+Content-Length: 400
+clock:1
+clientID:1
+
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+<entry>
+<title>My example feed</title>
+<subtitle>for demonstration purposes</subtitle>
+<link>www.cs.adelaide.edu.au</link>
+<updated>2015-08-07T18:30:02Z</updated>
+<author>
+<name>Santa Claus</name>
+</author>
+<id>urn::uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+</entry>
+</feed>
+
+Atom server updated timestamp.
+Client socket closed
+PUT /atom.xml HTTP/1.1
+User-agent: ATOMClient/1/0
+Content-Type: text/xml
+Content-Length: 529
+clock:2
+clientID:1
+
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+<entry>
+<title>Nick sets assignment</title>
+<link>www.cs.adelaide.edu.au/users/third/ds/</link>
+<updated>2015-08-07T18:30:02Z</updated>
+<id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+<summary>here is some plain text. Because I'm not completely evil, you can assume that this will always be less than 1000 characters. And, as I've said before, it will always be plain text. </summary>
+</entry>
+</feed>
+
+Atom server updated timestamp.
+Client socket closed
+PUT /atom.xml HTTP/1.1
+User-agent: ATOMClient/1/0
+Content-Type: text/xml
+Content-Length: 478
+clock:3
+clientID:1
+
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+<entry>
+<title>second feed entry</title>
+<link>www.cs.adelaide.edu.au/users/third/ds/14ds2s1</link>
+<updated>2015-08-07T18:29:02Z</updated>
+<id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6b</id>
+<summary>here's another summary entry which a reader would normally use to work out if they wanted to read some more. It's quite handy.</summary>
+</entry>
+</feed>
+
+Atom server updated timestamp.
+Client socket closed
+PUT /atom.xml HTTP/1.1
+User-agent: ATOMClient/1/0
+Content-Type: text/xml
+Content-Length: 324
+clock:1
+clientID:2
+
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+<entry>
+<title>THE FEED</title>
+<link>ho.net</link>
+<updated>2015-08-07T18:30:02Z</updated>
+<author>
+<name>hacker</name>
+</author>
+<id>urn::uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+</entry>
+</feed>
+
+Atom server updated timestamp.
+Client socket closed
+PUT /atom.xml HTTP/1.1
+User-agent: ATOMClient/1/0
+Content-Type: text/xml
+Content-Length: 251
+clock:2
+clientID:2
+
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+<entry>
+<title>i m d e a d</title>
+<id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+<summary>text</summary>
+</entry>
+</feed>
+
+Atom server updated timestamp.
+Client socket closed
+GET /atom.xml
+0
+
+Client socket closed
+Entries of clientID:1 is removed
+Timer issueEntries of clientID:2 is removed
+purged timers
+server socket closed

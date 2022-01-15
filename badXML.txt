@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+    <entry>
+        <title>second feed entry</title>
+        <link>www.cs.adelaide.edu.au/users/third/ds/14ds2s1<link>
+        <updated>2015-08-07T18:29:02Z</updated>
+        <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6b<id>
+    </entry>
+</feed>
