@@ -1,0 +1,10 @@
+PUT /atom.xml HTTP/1.1
+User-Agent: ATOMClient/1/0
+Content-Type: text/xml, application/xml
+Content-Length: (And this one too)
+
+<?xml version='1.0' encoding='iso-8859-1' ?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+(And then your file of data)
+...
+</feed>
